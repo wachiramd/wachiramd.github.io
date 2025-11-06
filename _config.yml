@@ -1,6 +1,9 @@
 #
 # This file contains configuration flags to customize your site
 #
+title: "Daniel Wachira — AI Research Portfolio"
+description: "Research, projects, and writings in AI Safety and Machine Learning"
+theme: jekyll-theme-minimal
 
 # Name of your site (displayed in the header)
 name: Daniel Wachira
@@ -10,6 +13,8 @@ description: Junior Research Fellow at ILINA
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://framerusercontent.com/images/2YQf39FdbaQnxM0RudrB3KFqA.jpg
+
+
 
 #
 # Flags below are optional
@@ -71,6 +76,7 @@ kramdown:
 # Set the Sass partials directory, as we're using @imports
 sass:
   style: :expanded # You might prefer to minify using :compressed
+  quiet_deps: True
 
 # Use the following plug-ins
 gems:
